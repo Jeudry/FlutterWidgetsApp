@@ -26,4 +26,9 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Este es el cards',
       route: CardsScreen.name,
       icon: Icons.credit_card),
+  MenuItem(
+      title: 'Progress',
+      subTitle: 'Este es el progress',
+      route: '/progress',
+      icon: Icons.refresh_rounded),
 ];
